@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* Lavender Purple */
+    color: #4a148c; /* Deep Purple */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #d1c4e9; /* Light Purple */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #6a1b9a; /* Dark Purple */
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: #4a148c; /* Deep Purple */
+}
+
+label {
+    margin-top: 10px;
+    color: #4a148c; /* Deep Purple */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ab47bc; /* Medium Purple */
+    border-radius: 5px;
+    background-color: #ffffff; /* White */
+    color: #4a148c; /* Deep Purple */
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ab47bc; /* Medium Purple */
+    color: #ffffff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #7b1fa2; /* Purple */
+}
+
